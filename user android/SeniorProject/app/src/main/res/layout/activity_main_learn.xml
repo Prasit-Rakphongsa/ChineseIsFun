@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/learnbackgroud"
+    tools:context="com.example.fong1.seniorproject.mainLearn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.13">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/one"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/radius"
+                            android:textColor="#936c6c"
+                            android:onClick="check"
+                            android:text="Pinyin"
+                            android:textSize="20dp" />
+
+                        <Button
+                            android:id="@+id/two"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/radius"
+                            android:textColor="#936c6c"
+                            android:onClick="check"
+                            android:text="NUMBER"
+                            android:textSize="20dp"
+                            tools:text="NUMBER" />
+
+                        <Button
+                            android:id="@+id/three"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/radius"
+                            android:textColor="#936c6c"
+                            android:onClick="check"
+                            android:text="TIMES"
+                            android:textSize="20dp"
+                            tools:text="TIMES" />
+
+                        <Button
+                            android:id="@+id/four"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/radius"
+                            android:textColor="#936c6c"
+                            android:onClick="check"
+                            android:text="TRAVEL"
+                            android:textSize="20dp"
+                            tools:text="TRAVEL" />
+
+                        <Button
+                            android:id="@+id/five"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/radius"
+                            android:textColor="#936c6c"
+                            android:onClick="check"
+                            android:text="SEASON"
+                            android:textSize="20dp"
+                            tools:text="SEASON" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/one1"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/radius"
+                            android:textColor="#936c6c"
+                            android:onClick="check"
+                            android:text="BASIC"
+                            android:textSize="20dp" />
+
+                        <Button
+                            android:id="@+id/two1"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/radius"
+                            android:textColor="#936c6c"
+                            android:onClick="check"
+                            android:text="FAMILY"
+                            android:textSize="20dp"
+                            tools:text="FAMILY" />
+
+                        <Button
+                            android:id="@+id/three1"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/radius"
+                            android:textColor="#936c6c"
+                            android:onClick="check"
+                            android:text="CLASSROOM"
+                            android:textSize="20dp"
+                            tools:text="CLASSROOM" />
+
+                        <Button
+                            android:id="@+id/four1"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/radius"
+                            android:textColor="#936c6c"
+                            android:onClick="check"
+                            android:text="ANIMAL"
+                            android:textSize="20dp"
+                            tools:text="ANIMAL" />
+
+                        <Button
+                            android:id="@+id/five1"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/radius"
+                            android:textColor="#936c6c"
+                            android:onClick="check"
+                            android:text="CAREER"
+                            android:textSize="20dp"
+                            tools:text="CAREER" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/six"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/radius"
+                        android:textColor="#936c6c"
+                        android:onClick="check"
+                        android:text="CONVERSATION 1"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/seven"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/radius"
+                        android:textColor="#936c6c"
+                        android:onClick="check"
+                        android:text="CONVERSATION 2"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/eight"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/radius"
+                        android:textColor="#936c6c"
+                        android:onClick="check"
+                        android:text="CONVERSATION 3"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <android.support.design.widget.BottomNavigationView
+                android:id="@+id/Navigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu"
+                design:menu="@menu/menu_nav" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

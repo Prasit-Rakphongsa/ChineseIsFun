@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/gradient"
+    android:paddingRight="18dp"
+    android:paddingLeft="18dp"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+    <!-- Here you can put your logo or brand name -->
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/loginlogo" />
+        <!--  <ImageView android:layout_height="150dp"
+             android:layout_width="240dp"
+             android:src="@drawable/mainicon"
+             android:layout_marginBottom="10dp"
+             android:layout_marginTop="10dp"
+             android:padding="10dp"
+             android:layout_gravity="center_horizontal"/> -->
+
+             <EditText
+                 android:id="@+id/email"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:background="@android:color/transparent"
+                 android:drawableLeft="@mipmap/ic_launcher"
+                 android:drawablePadding="8dp"
+                 android:ems="10"
+                 android:hint="Email"
+                 android:inputType="textEmailAddress"
+                 android:maxLines="1"
+                 android:padding="8dp"
+                 android:textColorHint="#fff" />
+
+         <View android:background="#f9d7db"
+             android:layout_height="1dp"
+             android:layout_width="match_parent"/>
+
+             <EditText
+                 android:id="@+id/password"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="4dp"
+                 android:background="@android:color/transparent"
+                 android:drawableLeft="@mipmap/ic_lock"
+                 android:drawablePadding="8dp"
+                 android:ems="10"
+                 android:hint="Password"
+                 android:inputType="textPassword"
+                 android:maxLines="1"
+                 android:padding="8dp"
+                 android:textColorHint="#fff" />
+
+         <View android:background="#f9d7db"
+             android:layout_height="1dp"
+             android:layout_width="match_parent"/>
+
+
+             <Button
+                 android:id="@+id/login"
+                 style="@style/Base.TextAppearance.AppCompat.Body1"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="10dp"
+                 android:background="@drawable/background_login"
+                 android:clickable="true"
+                 android:onClick="login"
+                 android:padding="10dp"
+                 android:text="Login"
+                 android:textAllCaps="false"
+                 android:textColor="#f16f7d"
+                 android:textSize="18sp"
+                 android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/forgetpass"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Forget your Password? "
+            android:textColor="#fff" />
+
+             <TextView
+                 android:id="@+id/register"
+                 style="@style/TextAppearance.AppCompat.Body2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginBottom="10dp"
+                 android:clickable="true"
+                 android:padding="10dp"
+                 android:text="Register "
+                 android:onClick="newUser"
+                 android:textColor="#fff" />
+
+     </LinearLayout>
+
+     </ScrollView>
+
+     </LinearLayout>
